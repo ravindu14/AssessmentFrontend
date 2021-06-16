@@ -1,0 +1,14 @@
+@import "../../assets/theme.scss";
+
+.photo-card {
+  background-color: $primary-background;
+  padding: 4px 4px 0px 4px;
+  border-radius: 5px;
+  img {
+    width: 100%;
+    border-radius: 5px;
+  }
+}
+.image-card:hover {
+  transform: scale(1.1);
+}

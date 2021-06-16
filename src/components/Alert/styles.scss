@@ -1,0 +1,28 @@
+@import "../../assets/theme.scss";
+
+.alert {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  display: flex;
+  justify-content: space-between;
+  &.alert-danger {
+    color: $alert-danger-fonts;
+    background-color: $alert-danger-background;
+    border-color: $alert-danger-border;
+  }
+  &.alert-success {
+    color: $alert-success-fonts;
+    background-color: $alert-success-background;
+    border-color: $alert-success-border;
+    a {
+      color: $alert-success-fonts;
+      font-weight: 500;
+    }
+  }
+  &.full-width {
+    text-align: center;
+  }
+}
